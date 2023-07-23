@@ -1,0 +1,26 @@
+{
+  "name": "vite-plugin-real-hmr",
+  "version": "0.0.2",
+  "description": "detect really file change then emit HMR, add comment and fomart beautify won't HMR ",
+  "main": "./dist/index.common.js",
+  "module": "./dist/index.esm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c rollup.config.js --bundleConfigAsCjs"
+  },
+  "keywords": [
+    "vue",
+    "vite",
+    "hmr",
+    "real",
+    "change"
+  ],
+  "author": "xflyyxfl@qq.com",
+  "license": "ISC",
+  "dependencies": {
+    "vite-plugin-real-hmr": "^0.0.1"
+  },
+  "devDependencies": {
+    "rollup": "^3.26.3"
+  }
+}
